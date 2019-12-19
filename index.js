@@ -35,7 +35,7 @@ describe('deli', () => {
     });
   });
 
-function takeANumber(line, name) {
-  
+function takeANumber(katzDeli, name) {
+  var i = 1
   return console.log(`Welcome, ${name}. You are number ${XXX} in line.`)
 }
