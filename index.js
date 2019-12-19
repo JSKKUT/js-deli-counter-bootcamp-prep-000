@@ -22,6 +22,7 @@ function takeANumber(katzDeli, name) {
   //     expect(deliLine).toEqual(["Blake", "Avi"]);
   //   });
   // });
+  
 while ([condition]) {
   [loopBody];
 }
@@ -31,7 +32,7 @@ function nowServing(katzDeli) {
   if (katzDeli.length === 0) {
     return "There is nobody waiting to be served!"
   } else {
-    katzDeli.shift();
+    person;
     return `Currently serving ${person}.`
   }
 }
