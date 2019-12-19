@@ -22,6 +22,9 @@ function takeANumber(katzDeli, name) {
   //     expect(deliLine).toEqual(["Blake", "Avi"]);
   //   });
   // });
+while ([condition]) {
+  [loopBody];
+}
 
 function nowServing(katzDeli) {
   var person = katzDeli.shift();
