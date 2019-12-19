@@ -8,11 +8,8 @@ function takeANumber(katzDeli, name) {
 
 
 
-//  4) deli nowServing returns the line is empty when no one is on line: ReferenceError: nowServing is not defined
+                    //  4) deli nowServing returns the line is empty when no one is on line: ReferenceError: nowServing is not defined
 //  5) deli nowServing returns an announcement about the person it is serving, and shifts the line: ReferenceError: nowServing is not defined
-//  6) deli currentLine(line) returns "The line is currently empty." if no one isin line: ReferenceError: currentLine is not defined
-//  7) deli currentLine(line) says who is in line when there are people waiting: ReferenceError: currentLine is not defined
-
 
   // describe('nowServing', () => {
   //   it('returns the line is empty when no one is on line', () => {
@@ -26,7 +23,6 @@ function takeANumber(katzDeli, name) {
   //   });
   // });
 
-
 function nowServing(katzDeli) {
   if (katzDeli.length === 0) {
     return "There is nobody waiting to be served!"
@@ -34,3 +30,12 @@ function nowServing(katzDeli) {
     katzDeli.shift();
   }
 }
+
+
+
+
+
+
+
+//  6) deli currentLine(line) returns "The line is currently empty." if no one isin line: ReferenceError: currentLine is not defined
+//  7) deli currentLine(line) says who is in line when there are people waiting: ReferenceError: currentLine is not defined
