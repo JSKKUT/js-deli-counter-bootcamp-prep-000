@@ -38,7 +38,7 @@ function currentLine(katzDeli) {
         i++;
         n++;
       }
-        return list;
+        return console.log(list);
       }
 }
 
