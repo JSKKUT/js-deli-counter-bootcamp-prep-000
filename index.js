@@ -14,6 +14,10 @@ function takeANumber(katzDeli, name) {
 //  7) deli currentLine(line) says who is in line when there are people waiting: ReferenceError: currentLine is not defined
 
 
+function nowServing(katzDeli) {
+  
+}
+
 // describe('deli', () => {
 //   describe('takeANumber', () => {
 //     var katzDeli;
