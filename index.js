@@ -28,13 +28,13 @@ function nowServing(katzDeli) {
 
 function currentLine(katzDeli) {
   var i = 0
-  var list = []
+  var list = ["The line is currently:"]
   var n = i + 1
   if (katzDeli.length === 0) {
     return "The line is currently empty."
   } else {
       while (i <= katzDeli.length) {
-        list.push(`The line is currently: ${n}. ${katzDeli[i]}`);
+        list.push(`${n}. ${katzDeli[i]}`);
         i++;
       }
         return list;
