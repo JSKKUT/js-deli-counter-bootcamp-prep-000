@@ -6,7 +6,7 @@ function takeANumber(katzDeli, name) {
     return `Welcome, ${name}. You are number ${katzDeli.length} in line.`;
 }
                     //  4) 
-                    //  5) deli nowServing returns an announcement about the person it is serving, and shifts the line: ReferenceError: nowServing is not defined
+                    //  5) 
 function nowServing(katzDeli) {
   var person = katzDeli.shift();
   if (katzDeli.length === 0) {
