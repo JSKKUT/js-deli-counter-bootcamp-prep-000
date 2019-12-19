@@ -6,37 +6,39 @@
 //  6) deli currentLine(line) returns "The line is currently empty." if no one isin line: ReferenceError: currentLine is not defined
 //  7) deli currentLine(line) says who is in line when there are people waiting: ReferenceError: currentLine is not defined
 
+
 // return console.log(`Welcome, ${name}. You are number ${XXX} in line.`)
 
-describe('deli', () => {
-  describe('takeANumber', () => {
-    var katzDeli;
-    var otherDeli;
 
-    beforeEach(() => {
-      katzDeli = [];
-      otherDeli = ["Steven", "Blake", "Avi"];
-    });
+// describe('deli', () => {
+//   describe('takeANumber', () => {
+//     var katzDeli;
+//     var otherDeli;
 
-    it('adds a person to the line', () => {
-      expect(takeANumber(katzDeli, 'Ada')).toEqual("Welcome, Ada. You are number 1 in line.");
-      expect(katzDeli).toEqual(['Ada']);
-    });
+//     beforeEach(() => {
+//       katzDeli = [];
+//       otherDeli = ["Steven", "Blake", "Avi"];
+//     });
 
-    it('appends the person the end of the line if there are already people on it', () => {
-      expect(takeANumber(otherDeli, 'Grace')).toEqual("Welcome, Grace. You are number 4 in line.");
-      expect(otherDeli).toEqual(["Steven", "Blake", "Avi", "Grace"]);
-    });
+//     it('adds a person to the line', () => {
+//       expect(takeANumber(katzDeli, 'Ada')).toEqual("Welcome, Ada. You are number 1 in line.");
+//       expect(katzDeli).toEqual(['Ada']);
+//     });
 
-    it("properly handles multiple people being added", () => {
-      takeANumber(katzDeli, 'Ada');
-      takeANumber(katzDeli, 'Grace');
-      takeANumber(katzDeli, 'Kent');
+//     it('appends the person the end of the line if there are already people on it', () => {
+//       expect(takeANumber(otherDeli, 'Grace')).toEqual("Welcome, Grace. You are number 4 in line.");
+//       expect(otherDeli).toEqual(["Steven", "Blake", "Avi", "Grace"]);
+//     });
 
-      expect(katzDeli).toEqual(["Ada", "Grace", "Kent"]);
-    });
-  });
+//     it("properly handles multiple people being added", () => {
+//       takeANumber(katzDeli, 'Ada');
+//       takeANumber(katzDeli, 'Grace');
+//       takeANumber(katzDeli, 'Kent');
+
+//       expect(katzDeli).toEqual(["Ada", "Grace", "Kent"]);
+//     });
+//   });
 
 function takeANumber(katzDeli, name) {
-  
+  katzDeli.push(`${name}`)
 }
