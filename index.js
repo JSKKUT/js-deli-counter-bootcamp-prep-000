@@ -6,6 +6,8 @@
 //  6) deli currentLine(line) returns "The line is currently empty." if no one isin line: ReferenceError: currentLine is not defined
 //  7) deli currentLine(line) says who is in line when there are people waiting: ReferenceError: currentLine is not defined
 
+// return console.log(`Welcome, ${name}. You are number ${XXX} in line.`)
+
 describe('deli', () => {
   describe('takeANumber', () => {
     var katzDeli;
@@ -36,6 +38,5 @@ describe('deli', () => {
   });
 
 function takeANumber(katzDeli, name) {
-  var i = 1
-  return console.log(`Welcome, ${name}. You are number ${XXX} in line.`)
+  
 }
