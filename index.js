@@ -33,8 +33,8 @@ function currentLine(katzDeli) {
     return "The line is currently empty."
   } else {
       list.push(katzDeli[0]);
-      i++
-  return `The line is currently: 1. NAME, 2. NAME`
+      i++;
+      return `The line is currently: 1. NAME, 2. NAME`
   }
 }
 
