@@ -33,7 +33,7 @@ function currentLine(katzDeli) {
   if (katzDeli.length === 0) {
     return "The line is currently empty."
   } else {
-      while () {
+      while (i <= katzDeli.length) {
         list.push(`The line is currently: ${n}. ${katzDeli[i]}`);
         i++;
       }
