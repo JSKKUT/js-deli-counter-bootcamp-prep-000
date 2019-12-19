@@ -15,7 +15,7 @@ function takeANumber(katzDeli, name) {
 
 
 function nowServing(katzDeli) {
-  katzDeli.shift
+  katzDeli.shift()
 }
 
 // describe('deli', () => {
