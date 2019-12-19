@@ -22,6 +22,10 @@ function nowServing(katzDeli) {
 //  6) deli currentLine(line) returns "The line is currently empty." if no one isin line: ReferenceError: currentLine is not defined
 //  7) deli currentLine(line) says who is in line when there are people waiting: ReferenceError: currentLine is not defined
 
+while ([condition]) {
+  [loopBody];
+}
+
 function currentLine(katzDeli) {
   if (katzDeli.length === 0) {
     return "The line is currently empty."
