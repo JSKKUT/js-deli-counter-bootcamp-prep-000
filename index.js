@@ -1,6 +1,6 @@
                     //  1) 
                     //  2) 
-                    //  3) deli takeANumber properly handles multiple people being added: ReferenceError: takeANumber is not defined
+                    //  3) 
 function takeANumber(katzDeli, name) {
   katzDeli.push(name);
     return `Welcome, ${name}. You are number ${katzDeli.length} in line.`;
