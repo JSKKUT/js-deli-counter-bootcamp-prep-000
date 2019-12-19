@@ -6,6 +6,6 @@
 //  6) deli currentLine(line) returns "The line is currently empty." if no one isin line: ReferenceError: currentLine is not defined
 //  7) deli currentLine(line) says who is in line when there are people waiting: ReferenceError: currentLine is not defined
 
-function takeANumber() {
+function takeANumber(currentLine, ) {
   
 }
