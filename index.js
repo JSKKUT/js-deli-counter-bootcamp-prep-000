@@ -5,7 +5,7 @@ function takeANumber(katzDeli, name) {
   katzDeli.push(name);
     return `Welcome, ${name}. You are number ${katzDeli.length} in line.`;
 }
-                    //  4) deli nowServing returns the line is empty when no one is on line: ReferenceError: nowServing is not defined
+                    //  4) 
                     //  5) deli nowServing returns an announcement about the person it is serving, and shifts the line: ReferenceError: nowServing is not defined
 function nowServing(katzDeli) {
   var person = katzDeli.shift();
