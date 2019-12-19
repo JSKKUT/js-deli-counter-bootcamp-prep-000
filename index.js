@@ -39,5 +39,3 @@ function currentLine(katzDeli) {
         return "The line is currently: " + list.join(", ");
       }
 }
-
-.join() = truns an array into a string
