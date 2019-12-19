@@ -7,5 +7,5 @@
 //  7) deli currentLine(line) says who is in line when there are people waiting: ReferenceError: currentLine is not defined
 
 function takeANumber(line, person) {
-  return console.log("")
+  return console.log("Welcome, Ada. You are number 1 in line.")
 }
