@@ -36,7 +36,7 @@ function currentLine(katzDeli) {
         list.push(`${i + 1}. ${katzDeli[i]}`);
         i++;
       }
-        return "The line is currently:" + list.join(", ");
+        return "The line is currently: " + list.join(", ");
       }
 }
 "The line is currently:"
