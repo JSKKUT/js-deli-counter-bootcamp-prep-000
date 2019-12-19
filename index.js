@@ -17,15 +17,6 @@ function nowServing(katzDeli) {
   }
 }
 
-
-
-//  6) 
-//  7) 
-
-// while ([condition]) {
-//   [loopBody];
-// }
-
 function currentLine(katzDeli) {
   var i = 0
   var list = []
