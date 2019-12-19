@@ -3,3 +3,5 @@
 //  3) deli takeANumber properly handles multiple people being added: ReferenceError: takeANumber is not defined
 //  4) deli nowServing returns the line is empty when no one is on line: ReferenceError: nowServing is not defined
 //  5) deli nowServing returns an announcement about the person it is serving, and shifts the line: ReferenceError: nowServing is not defined
+//  6) deli currentLine(line) returns "The line is currently empty." if no one isin line: ReferenceError: currentLine is not defined
+//
