@@ -39,5 +39,6 @@
 
 function takeANumber(katzDeli, name) {
   katzDeli.push(`${name}`);
-    return console.log(`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
+    katzDeli;
+      return console.log(`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
 }
