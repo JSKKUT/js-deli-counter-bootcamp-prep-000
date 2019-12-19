@@ -20,7 +20,7 @@ function nowServing(katzDeli) {
 
 
 //  6) 
-//  7) deli currentLine(line) says who is in line when there are people waiting: ReferenceError: currentLine is not defined
+//  7) 
 
 // while ([condition]) {
 //   [loopBody];
