@@ -36,7 +36,7 @@ function currentLine(katzDeli) {
         list.push(`${i + 1}. ${katzDeli[i]}`);
         i++;
       }
-        return list.join();
+        return list.join("and");
       }
 }
 
