@@ -24,10 +24,12 @@ function takeANumber(katzDeli, name) {
   // });
 
 function nowServing(katzDeli) {
+  var person = katzDeli.shift();
   if (katzDeli.length === 0) {
     return "There is nobody waiting to be served!"
   } else {
     katzDeli.shift();
+    return `Currently serving ${person}.`
   }
 }
 
